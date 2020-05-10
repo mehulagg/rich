@@ -1,2 +1,5 @@
 image:
   file: web.dockerfile
+
+tasks:
+  - command: flutter doctor -v

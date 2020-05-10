@@ -20,4 +20,4 @@ RUN set -ex; \
     flutter channel beta; \
     flutter upgrade; \
     flutter config --enable-web; \
-    flutter precache
+    flutter doctor -v
